@@ -1,4 +1,4 @@
-== Think Up Themes ==
+ == Think Up Themes ==
 
 - By Think Up Themes, http://www.thinkupthemes.com/
 
