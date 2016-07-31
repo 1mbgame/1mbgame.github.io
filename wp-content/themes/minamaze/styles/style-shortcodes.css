@@ -1069,14 +1069,14 @@ ul.iconfont i.fa-none   { margin-left: -39px; }
 .notification.warning,  .notification.message  { background: #F9FFC3; }
 
 .notification .icon          { padding: 20px 20px 20px 60px; }
-.notification.error .icon    { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/X.png') no-repeat 15px 18px; background-size: 25px }
-.notification.stop .icon     { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/No.png') no-repeat 15px 18px; background-size: 25px }
-.notification.download .icon { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/World-download.png') no-repeat 15px 18px; background-size: 25px }
-.notification.success .icon  { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/Checkmark.png') no-repeat 15px 18px; background-size: 25px }
-.notification.info .icon     { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/Info.png') no-repeat 15px 18px; background-size: 25px }
-.notification.question .icon { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/Questions.png') no-repeat 15px 18px; background-size: 25px }
-.notification.warning .icon  { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/Warning.png') no-repeat 15px 18px; background-size: 25px }
-.notification.message .icon  { background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/icons/color/Chat.png') no-repeat 15px 18px; background-size: 25px }
+.notification.error .icon    { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/X.png') no-repeat 15px 18px; background-size: 25px }
+.notification.stop .icon     { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/No.png') no-repeat 15px 18px; background-size: 25px }
+.notification.download .icon { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/World-download.png') no-repeat 15px 18px; background-size: 25px }
+.notification.success .icon  { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/Checkmark.png') no-repeat 15px 18px; background-size: 25px }
+.notification.info .icon     { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/Info.png') no-repeat 15px 18px; background-size: 25px }
+.notification.question .icon { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/Questions.png') no-repeat 15px 18px; background-size: 25px }
+.notification.warning .icon  { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/Warning.png') no-repeat 15px 18px; background-size: 25px }
+.notification.message .icon  { background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/icons/color/Chat.png') no-repeat 15px 18px; background-size: 25px }
 
 
 /* ---------------------------------------------------------------------------- */
@@ -1166,10 +1166,10 @@ ul.iconfont i.fa-none   { margin-left: -39px; }
 	padding-left: 50px;
 }
 .pricing-table li.tick { 
-	background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/shortcodes/icon-tick.png') 25px center no-repeat;
+	background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/shortcodes/icon-tick.png') 25px center no-repeat;
 }
 .pricing-table li.cross {
-	background: url('http://www.wangsachats.com/wp-content/themes/minamaze/images/shortcodes/icon-cross.png') 25px center no-repeat;
+	background: url('http://www.1mbgame.com/wp-content/themes/minamaze/images/shortcodes/icon-cross.png') 25px center no-repeat;
 }
 
 
