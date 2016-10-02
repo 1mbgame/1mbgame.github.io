@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<meta property="og:url"  content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="When Great Minds Don’t Think Alike" />
+<meta property="og:description" id="demo" content="How much does culture influence creative thinking?" />
+<meta property="og:image" content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg"
+/>
+<script>
+
+var data = urlParameters().data;
+document.getElementById("demo").setAttribute("content",data);
+
+function urlParameters() {
+    var params = {};
+
+    if (location.search) {
+        var parts = location.search.substring(1).split('&');
+
+        for (var i = 0; i < parts.length; i++) {
+            var nv = parts[i].split('=');
+            if (!nv[0]) continue;
+            params[nv[0]] = nv[1] || true;
+        }
+    }
+    return params;
+};
+</script>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph.</p>
+
+</body>
+
+</html>
