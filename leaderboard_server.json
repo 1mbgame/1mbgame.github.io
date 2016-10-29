@@ -1,4 +1,4 @@
 {
-	"server_name" : "http://api.firstimpression-jobs.com/PHPMailer_5.2.0/docs/myl/leaderboard/",
-	"expire_date" : "20170101"
+	"serverName" : "http://api.firstimpression-jobs.com/PHPMailer_5.2.0/docs/myl/leaderboard/",
+	"expireDate" : "20170101"
 }
