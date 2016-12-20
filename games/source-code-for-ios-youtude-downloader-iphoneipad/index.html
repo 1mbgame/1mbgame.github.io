@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="profile" href="//gmpg.org/xfn/11" />
+<link rel="pingback" href="http://www.1mbgame.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="http://www.1mbgame.com/wp-content/themes/minamaze/lib/scripts/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<title>Diadeo Source Code For IOS Youtude downloader &#8211; iPhone/iPad &#8211; WangsaChats</title>
+<link rel="alternate" type="application/rss+xml" title="WangsaChats &raquo; Feed" href="http://www.1mbgame.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WangsaChats &raquo; Comments Feed" href="http://www.1mbgame.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.1mbgame.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='thinkup-google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-min-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/lib/extentions/font-awesome/css/font-awesome.min.css?ver=4.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.1mbgame.com/wp-includes/css/dashicons.min.css?ver=4.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/lib/extentions/bootstrap/css/bootstrap.min.css?ver=2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/lib/extentions/prettyPhoto/css/prettyPhoto.css?ver=3.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/style.css?ver=1.3.13' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/styles/style-shortcodes.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sidebarright-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/styles/layouts/thinkup-right-sidebar.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-css'  href='http://www.1mbgame.com/wp-content/themes/minamaze/styles/style-responsive.css?ver=1.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.1mbgame.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/plugins/slider/js/jssor.js?ver=4.5.4'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/plugins/slider/js/helper.js?ver=4.5.4'></script>
+<link rel='https://api.w.org/' href='http://www.1mbgame.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.1mbgame.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.1mbgame.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.4" />
+<link rel="canonical" href="http://www.1mbgame.com/games/source-code-for-ios-youtude-downloader-iphoneipad/" />
+<link rel='shortlink' href='http://www.1mbgame.com/?p=123' />
+<link rel="alternate" type="application/json+oembed" href="http://www.1mbgame.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wangsachats.com%2Fgames%2Fsource-code-for-ios-youtude-downloader-iphoneipad%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.1mbgame.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wangsachats.com%2Fgames%2Fsource-code-for-ios-youtude-downloader-iphoneipad%2F&#038;format=xml" />
+
+<style type="text/css">
+
+#main-core{
+            font-family: arial, sans-serif;
+           font-size: 1.2em;
+                color:#000000;
+}
+#sidebar-core{
+float: left;
+padding: 20px 0 10px 0;
+width:300px;
+}
+
+
+</style>
+
+</head>
+
+<body class="page page-id-123 page-child parent-pageid-18 page-template-default layout-responsive header-style1">
+<div id="body-core" class="hfeed site">
+
+	<header id="site-header">
+
+					<div class="custom-header"><img src="http://www.1mbgame.com/wp-content/uploads/2016/07/header.jpg" width="1600" height="200" alt=""></div>
+		
+		<div id="pre-header">
+		<div class="wrap-safari">
+		<div id="pre-header-core" class="main-navigation">
+  
+						<div id="pre-header-links-inner" class="header-links"><ul id="menu-main" class="menu"><li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://www.1mbgame.com/">Home</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-30"><a href="http://www.1mbgame.com/games/">Games</a>
+<ul class="sub-menu">
+	<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://www.1mbgame.com/games/bunny-rescue/">Bunny Rescue</a></li>
+	<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.1mbgame.com/games/escapor-ball/">Escapor Ball</a></li>
+	<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="http://www.1mbgame.com/games/duck-hunting-war/">Duck Hunting War</a></li>
+	<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.1mbgame.com/games/zombie-world-conquest-fps-game/">Zombie world Conquest</a></li>
+	<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.1mbgame.com/games/best-singapore-mrt/">Best Singapore MRT</a></li>
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.1mbgame.com/games/g11/">Best Malaysia LRT App</a></li>
+	<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://www.1mbgame.com/games/g10/">Monster Shooter</a></li>
+	<li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-123 current_page_item menu-item-140"><a href="http://www.1mbgame.com/games/source-code-for-ios-youtude-downloader-iphoneipad/">Diadeo Source Code For IOS Youtude downloader – iPhone/iPad</a></li>
+</ul>
+</li>
+</ul></div>			
+			
+			<div id="pre-header-social"><ul><li class="social facebook"><a href="https://www.facebook.com/wangsachats" data-tip="bottom" data-original-title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li><li class="social google"><a href="https://plus.google.com/u/0/103602685261487698482" data-tip="bottom" data-original-title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a></li><li class="social youtube"><a href="" data-tip="bottom" data-original-title="YouTube" target="_blank"><i class="fa fa-youtube-play"></i></a></li></ul></div>
+		</div>
+		</div>
+		</div>
+		<!-- #pre-header -->
+
+		<div id="header">
+		<div id="header-core">
+
+			<div id="logo">
+			<a rel="home" href="http://www.1mbgame.com/"><h1 rel="home" class="site-title" title="WangsaChats">WangsaChats</h1></a>
+			</div>
+
+			<div id="header-links" class="main-navigation">
+			<div id="header-links-inner" class="header-links">
+				<ul id="menu-main-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://www.1mbgame.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-30"><a href="http://www.1mbgame.com/games/">Games</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://www.1mbgame.com/games/bunny-rescue/">Bunny Rescue</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.1mbgame.com/games/escapor-ball/">Escapor Ball</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="http://www.1mbgame.com/games/duck-hunting-war/">Duck Hunting War</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.1mbgame.com/games/zombie-world-conquest-fps-game/">Zombie world Conquest</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.1mbgame.com/games/best-singapore-mrt/">Best Singapore MRT</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.1mbgame.com/games/g11/">Best Malaysia LRT App</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://www.1mbgame.com/games/g10/">Monster Shooter</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-123 current_page_item menu-item-140"><a href="http://www.1mbgame.com/games/source-code-for-ios-youtude-downloader-iphoneipad/">Diadeo Source Code For IOS Youtude downloader – iPhone/iPad</a></li>
+</ul>
+</li>
+</ul>			</div>
+			</div>
+			<!-- #header-links .main-navigation -->
+
+			<div id="header-responsive"><a class="btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><div id="header-responsive-inner" class="responsive-links nav-collapse collapse"><ul id="menu-main-2" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="http://www.1mbgame.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-30"><a href="http://www.1mbgame.com/games/">Games</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://www.1mbgame.com/games/bunny-rescue/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Bunny Rescue</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.1mbgame.com/games/escapor-ball/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Escapor Ball</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56"><a href="http://www.1mbgame.com/games/duck-hunting-war/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Duck Hunting War</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://www.1mbgame.com/games/zombie-world-conquest-fps-game/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Zombie world Conquest</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.1mbgame.com/games/best-singapore-mrt/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Best Singapore MRT</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="http://www.1mbgame.com/games/g11/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Best Malaysia LRT App</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://www.1mbgame.com/games/g10/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Monster Shooter</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-123 current_page_item menu-item-140"><a href="http://www.1mbgame.com/games/source-code-for-ios-youtude-downloader-iphoneipad/">&nbsp; &nbsp; &nbsp; &nbsp; &#45; Diadeo Source Code For IOS Youtude downloader – iPhone/iPad</a></li>
+</ul>
+</li>
+</ul></div></div><!-- #header-responsive -->
+		</div>
+		</div>
+		<!-- #header -->
+			</header>
+	<!-- header -->
+
+			
+	<div id="content">
+	<div id="content-core">
+
+		<div id="main">
+		<div id="intro" class="option1"><div id="intro-core"><h1 class="page-title"><span>Diadeo Source Code For IOS Youtude downloader &#8211; iPhone/iPad</span></h1></div></div>
+		<div id="main-core">
+			
+				
+		<article id="post-123" class="post-123 page type-page status-publish hentry">
+
+		<p style="text-align: center;"><strong>Diadeo Video Download</strong></p>
+<p style="text-align: center;">	<!-- Construct js Slider -->
+	<script>
+		var reslider3  = {
+			id: '3',
+			name: 'Diadeo',
+			params: JSON.parse('{"autoplay":1,"effect":{"type":6,"duration":1500,"interval":1000},"thumbnails":{"show":0,"positioning":0},"custom":{"type":"button","show":1,"style":{"width":"100","height":"50","left":"100px","top":"200px","color":"000000","opacity":"50","font":{"size":"14"},"border":{"color":"3478FF","width":"2","radius":"10"},"background":{"color":"E8FF81","hover":"30FF4F"}}},"title":{"show":1,"position":"1","style":{"width":150,"height":50,"left":"10px","top":"20px","color":"FFFFFF","opacity":70,"font":{"size":16},"border":{"color":"FFFFFF","width":0,"radius":2},"background":{"color":"CCCCCC","hover":"000000"}}},"description":{"show":1,"position":"1","style":{"width":200,"height":60,"left":"170px","top":"20px","color":"FFFFFF","opacity":70,"font":{"size":14},"border":{"color":"FFFFFF","width":0,"radius":2},"background":{"color":"CCCCCC","hover":"000000"}}},"arrows":{"show":2,"type":1,"style":{"background":{"width":"49","height":"49","left":"91px 46px","right":"-44px 1px","hover":{"left":"91px 46px","right":"-44px 1px"},"free":{"width":"49","height":"49","left":"91px 46px","right":"-44px 1px","hover":{"left":"91px 46px","right":"-44px 1px"}}}}},"bullets":{"show":0,"type":"0","position":0,"autocenter":"0","rows":1,"s_x":10,"s_y":10,"orientation":1,"style":{"background":{"width":"60","height":"60","color":{"hover":646464,"active":"30FF4F","link":"CCCCCC"}},"position":{"top":"16px","left":"10px"}}}}'),
+			style: JSON.parse('{"background":"blue;","border":"1px solid red;","color":"yellow","width":"299","height":"600","marginLeft":"0","marginRight":"0","marginTop":"0","marginBottom":"0"}'),
+			custom: JSON.parse('{}'),
+			count: '7',
+			slides: {}
+		};
+				reslider3['slides']['slide' + '18'] = {};
+		reslider3['slides']['slide' + '18']['id'] = '18';
+		reslider3.slides['slide' + '18']['title'] = 'iphone1';
+		reslider3.slides['slide' + '18']['description'] = '';
+		reslider3.slides['slide' + '18']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone1.png';
+		reslider3.slides['slide' + '18']['type'] = '';
+		reslider3.slides['slide' + '18']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '17'] = {};
+		reslider3['slides']['slide' + '17']['id'] = '17';
+		reslider3.slides['slide' + '17']['title'] = 'iphone2';
+		reslider3.slides['slide' + '17']['description'] = '';
+		reslider3.slides['slide' + '17']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone2.png';
+		reslider3.slides['slide' + '17']['type'] = '';
+		reslider3.slides['slide' + '17']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '16'] = {};
+		reslider3['slides']['slide' + '16']['id'] = '16';
+		reslider3.slides['slide' + '16']['title'] = 'iphone3';
+		reslider3.slides['slide' + '16']['description'] = '';
+		reslider3.slides['slide' + '16']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone3.png';
+		reslider3.slides['slide' + '16']['type'] = '';
+		reslider3.slides['slide' + '16']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '15'] = {};
+		reslider3['slides']['slide' + '15']['id'] = '15';
+		reslider3.slides['slide' + '15']['title'] = 'iphone4';
+		reslider3.slides['slide' + '15']['description'] = '';
+		reslider3.slides['slide' + '15']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone4.png';
+		reslider3.slides['slide' + '15']['type'] = '';
+		reslider3.slides['slide' + '15']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '14'] = {};
+		reslider3['slides']['slide' + '14']['id'] = '14';
+		reslider3.slides['slide' + '14']['title'] = 'iphone5';
+		reslider3.slides['slide' + '14']['description'] = '';
+		reslider3.slides['slide' + '14']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone5.png';
+		reslider3.slides['slide' + '14']['type'] = '';
+		reslider3.slides['slide' + '14']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '13'] = {};
+		reslider3['slides']['slide' + '13']['id'] = '13';
+		reslider3.slides['slide' + '13']['title'] = 'iphone6';
+		reslider3.slides['slide' + '13']['description'] = '';
+		reslider3.slides['slide' + '13']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone6.png';
+		reslider3.slides['slide' + '13']['type'] = '';
+		reslider3.slides['slide' + '13']['custom'] = JSON.parse('{}');
+
+				reslider3['slides']['slide' + '12'] = {};
+		reslider3['slides']['slide' + '12']['id'] = '12';
+		reslider3.slides['slide' + '12']['title'] = 'iphone7';
+		reslider3.slides['slide' + '12']['description'] = '';
+		reslider3.slides['slide' + '12']['url'] = 'http://www.1mbgame.com/wp-content/uploads/2016/12/iphone7.png';
+		reslider3.slides['slide' + '12']['type'] = '';
+		reslider3.slides['slide' + '12']['custom'] = JSON.parse('{}');
+
+			</script>
+	<div id="slider3_container"
+	     style="width: 299px; height: 600px;">
+
+
+		<div u="loading" class="reslide_loading">
+			<!-- your loading screen content here -->
+			<div></div>
+		</div>
+
+		<!-- Slides Container -->
+		<div u="slides" class="reslide_slides">
+							<div id="slide3_18">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone1.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone1.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone1.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone1.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone1</span>
+						</div>
+										
+									</div>
+							<div id="slide3_17">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone2.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone2.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone2.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone2.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone2</span>
+						</div>
+										
+									</div>
+							<div id="slide3_16">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone3.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone3.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone3.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone3.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone3</span>
+						</div>
+										
+									</div>
+							<div id="slide3_15">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone4.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone4.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone4.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone4.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone4</span>
+						</div>
+										
+									</div>
+							<div id="slide3_14">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone5.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone5.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone5.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone5.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone5</span>
+						</div>
+										
+									</div>
+							<div id="slide3_13">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone6.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone6.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone6.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone6.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone6</span>
+						</div>
+										
+									</div>
+							<div id="slide3_12">
+					<img u="image" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone7.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone7.png"/>
+					<img u="thumb" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone7.png" alt="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone7.png"/>
+											<div class="reslidetitle">
+							<div></div>
+							<span>iphone7</span>
+						</div>
+										
+									</div>
+					</div>
+				<!--#region Bullet Navigator Skin Begin -->
+
+
+		<!-- bullet navigator container -->
+		<div u="navigator" class="reslide_navigator" style="bottom: 16px; right: 10px;">
+			<!-- bullet navigator item prototype -->
+			<div u="prototype" class="reslide_dot"></div>
+		</div>
+		<!--#endregion Bullet Navigator Skin End -->
+		<!-- Arrow Left -->
+        <span u="arrowleft" class="reslide_arrow_left" style="top: 123px; left: 8px;">
+        </span>
+		<!-- Arrow Right -->
+        <span u="arrowright" class="reslide_arrow_right" style="top: 123px; right: 8px;">
+        </span>
+		<!-- Trigger -->
+		<div u="thumbnavigator" class="reslide-thumbnail3" style="right: 0px; bottom: 0px;">
+			<!-- Thumbnail Item Skin Begin -->
+			<div u="slides" style=" bottom: 25px; right: 30px;cursor: default;">
+				<div u="prototype" class="p">
+					<div class=w>
+						<div u="thumbnailtemplate" class="t"></div>
+					</div>
+					<div class=c></div>
+				</div>
+			</div>
+			<!-- Thumbnail Item Skin End -->
+		</div>
+	</div>
+	<style>
+		#slider3_container {
+			margin: 0 auto;
+			margin-bottom: 10px;
+			position: relative;
+			top: 0px;
+			left: 0px;
+			display: none;
+			overflow: hidden;
+		}
+
+		#slider3_container .reslide_slides img {
+			display: none;
+		}
+
+		#slider3_container .reslide_loading {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+
+		#slider3_container .reslide_loading > div {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background: #ccc;
+		}
+
+		#slider3_container .reslide_slides {
+			width: 299px;
+			height: 600px;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			overflow: hidden;
+			cursor: move;
+		}
+
+		/*Title and description defaults ***/
+
+		#slider3_container .reslidetitle, #slider3_container .reslidedescription {
+			position: absolute;
+			overflow: hidden;
+			z-index: 2;
+		}
+
+		#slider3_container .reslidetitle > div, #slider3_container .reslidedescription > div {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			font-size: 14px;
+		}
+
+		#slider3_container .reslidetitle > span, #slider3_container .reslidedescription > span {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			z-index: 1;
+			padding: 10px;
+
+		}
+
+		/*Title styles ***/
+
+		#slider3_container .reslidetitle {
+			width: 150px;
+			height: 50px;
+			top: 20px;
+			left: 10px;
+			border: 0 px solid #FFFFFF;
+			border-radius: 2px;
+		}
+
+		#slider3_container .reslidetitle > div {
+			background: #CCCCCC;
+			opacity: 0.7;
+			filter: alpha(opacity=70);
+		}
+
+		#slider3_container .reslidetitle > span {
+			padding: 10px;
+			text-align: center;
+			text-align: center;
+			font-size: 16px;
+			color: #FFFFFF;
+		}
+
+		/*Description styles ***/
+
+		#slider3_container .reslidedescription {
+			width: 200px;
+			height: 60px;
+			top: 20px;
+			left: 170px;
+			border: 0 px solid #FFFFFF;
+			border-radius: 2px;
+		}
+
+		#slider3_container .reslidedescription > div {
+			background: #CCCCCC;
+			opacity: 0.7;
+			filter: alpha(opacity=70);
+		}
+
+		#slider3_container .reslidedescription > span {
+			font-size: 14px;
+			color: #FFFFFF;
+		}
+
+		/* slide static elements ***/
+
+		
+		#slider3_container #slider3_container .reslide_any {
+			width: 100px;
+			height: 26px;
+			position: absolute;
+			top: 10px;
+			left: 400px;
+		}
+
+		/* Sliders Customs Statics***/
+		
+		/*** navigator ***/
+
+		#slider3_container .reslide_navigator {
+			position: absolute;
+
+		}
+
+		#slider3_container .reslide_navigator div, #slider3_container .reslide_navigator div:hover, #slider3_container .reslide_navigator .av {
+			position: absolute;
+			/* size of bullet elment */
+			width: 12px;
+			height: 12px;
+			border-radius: 10px;
+			filter: alpha(opacity=70);
+			opacity: .7;
+			overflow: hidden;
+			cursor: pointer;
+			border: #4B4B4B 1px solid;
+		}
+
+		#slider3_container .reslide_navigator div {
+			background-color: #CCCCCC;
+		}
+
+		body #slider3_container .reslide_navigator div:hover {
+			background-color: #646464;
+		}
+
+		#slider3_container .reslide_navigator .reslide_dotav {
+			background-color: #74B8CF !important;
+			border: #fff 1px solid;
+		}
+
+		#slider3_container .reslide_navigator .dn, #slider3_container .reslide_navigator .dn:hover {
+			background-color: #555555;
+		}
+
+		/* arrows */
+
+		#slider3_container .reslide_arrow_left, #slider3_container .reslide_arrow_right {
+			display: block;
+			position: absolute;
+			/* size of arrow element */
+			width: 49px;
+			height: 49px;
+			cursor: pointer;
+			background-image: url(http://www.1mbgame.com/wp-content/plugins/slider/Front_images/arrows/arrows-1.png);
+			overflow: hidden;
+			z-index: 9999;
+		}
+
+		#slider3_container .reslide_arrow_left {
+			background-position: 91px 46px;
+		}
+
+		#slider3_container .reslide_arrow_left:hover {
+			background-position: 91px 46px;
+		}
+
+		#slider3_container .reslide_arrow_right {
+			background-position: -44px 1px;
+		}
+
+		#slider3_container .reslide_arrow_right:hover {
+			background-position: -44px 1px;
+		}
+
+		#slider3_container .reslide_arrow_left.reslide_arrow_leftdn {
+			background-position: 91px 46px;
+		}
+
+		#slider3_container .reslide_arrow_right.reslide_arrow_leftdn {
+			background-position: -44px 1px;
+		}
+
+		/* thumbnail  */
+
+		.reslide-thumbnail3 {
+			position: absolute;
+			/* size of thumbnail navigator container */
+			height: 60px;
+			width: 299px;
+			z-index: 1;
+		}
+
+		#slider3_container .reslide-thumbnail3 > div {
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			max-width: 289px;
+		}
+
+		#slider3_container .reslide-thumbnail3 .p {
+			position: absolute;
+			top: 0;
+			left: 0;
+			/* max-width: 62px;*/
+			height: 32px;
+		}
+
+		#slider3_container .reslide-thumbnail3 .t {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+
+		#slider3_container .reslide-thumbnail3 .w, #slider3_container .reslide-thumbnail3 .pav:hover .w {
+			position: absolute;
+			/*  max-width: 60px;*/
+			height: 30px;
+			box-sizing: border-box;
+			border: #0099FF 1px solid;
+		}
+
+		#slider3_container .reslide-thumbnail3 .pdn .w, #slider3_container .reslide-thumbnail3 .pav .w {
+			border-style: dashed;
+		}
+
+		#slider3_container .reslide-thumbnail3 .c {
+			position: absolute;
+			top: 0;
+			left: 0;
+			/* max-width: 62px;*/
+			height: 30px;
+			background-color: #000;
+			filter: alpha(opacity=45);
+			opacity: .45;
+			transition: opacity .6s;
+			-moz-transition: opacity .6s;
+			-webkit-transition: opacity .6s;
+			-o-transition: opacity .6s;
+		}
+
+		#slider3_container .reslide-thumbnail3 .p:hover .c, #slider3_container .reslide-thumbnail3 .pav .c {
+			filter: alpha(opacity=0);
+			opacity: 0;
+		}
+
+		#slider3_container .reslide-thumbnail3 .p:hover .c {
+			transition: none;
+			-moz-transition: none;
+			-webkit-transition: none;
+			-o-transition: none;
+		}
+
+		* html #slider3_container .reslide-thumbnail3 .w {
+			width /**/: 62px;
+			height /**/: 32px;
+		}
+	</style>
+	<script>
+		var c_slider3;
+
+		init_c_slider3 = function (containerId) {
+
+			switch (reslider3["params"]["effect"]["type"]) {
+				case 0:
+					var reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						$Opacity: 2,
+						$Brother: {$Duration: 1000, $Opacity: 2}
+					};
+					break;
+				case 1:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						x: -0.3,
+						y: 0.5,
+						$Zoom: 1,
+						$Rotate: 0.1,
+						$During: {$Left: [0.6, 0.4], $Top: [0.6, 0.4], $Rotate: [0.6, 0.4], $Zoom: [0.6, 0.4]},
+						$Easing: {
+							$Left: $JssorEasing$.$EaseInQuad,
+							$Top: $JssorEasing$.$EaseInQuad,
+							$Opacity: $JssorEasing$.$EaseLinear,
+							$Rotate: $JssorEasing$.$EaseInQuad
+						},
+						$Opacity: 2,
+						$Brother: {
+							$Duration: 1000,
+							$Zoom: 11,
+							$Rotate: -0.5,
+							$Easing: {$Opacity: $JssorEasing$.$EaseLinear, $Rotate: $JssorEasing$.$EaseInQuad},
+							$Opacity: 2,
+							$Shift: 200
+						}
+					};
+					break;
+				case 2:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						x: 0.25,
+						$Zoom: 1.5,
+						$Easing: {$Left: $JssorEasing$.$EaseInWave, $Zoom: $JssorEasing$.$EaseInSine},
+						$Opacity: 2,
+						$ZIndex: -10,
+						$Brother: {
+							$Duration: 1400,
+							x: -0.25,
+							$Zoom: 1.5,
+							$Easing: {$Left: $JssorEasing$.$EaseInWave, $Zoom: $JssorEasing$.$EaseInSine},
+							$Opacity: 2,
+							$ZIndex: -10
+						}
+					}
+					break;
+				case 3:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						x: 0.5,
+						$Cols: 2,
+						$ChessMode: {$Column: 3},
+						$Easing: {$Left: $JssorEasing$.$EaseInOutCubic},
+						$Opacity: 2,
+						$Brother: {$Duration: 1500, $Opacity: 2}
+					}
+					break;
+				case 4:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						x: -0.1,
+						y: -0.7,
+						$Rotate: 0.1,
+						$During: {$Left: [0.6, 0.4], $Top: [0.6, 0.4], $Rotate: [0.6, 0.4]},
+						$Easing: {
+							$Left: $JssorEasing$.$EaseInQuad,
+							$Top: $JssorEasing$.$EaseInQuad,
+							$Opacity: $JssorEasing$.$EaseLinear,
+							$Rotate: $JssorEasing$.$EaseInQuad
+						},
+						$Opacity: 2,
+						$Brother: {
+							$Duration: 1000,
+							x: 0.2,
+							y: 0.5,
+							$Rotate: -0.1,
+							$Easing: {
+								$Left: $JssorEasing$.$EaseInQuad,
+								$Top: $JssorEasing$.$EaseInQuad,
+								$Opacity: $JssorEasing$.$EaseLinear,
+								$Rotate: $JssorEasing$.$EaseInQuad
+							},
+							$Opacity: 2
+						}
+					}
+					break;
+				case 5:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						x: -1,
+						y: -0.5,
+						$Delay: 50,
+						$Cols: 8,
+						$Rows: 4,
+						$Formation: $JssorSlideshowFormations$.$FormationSquare,
+						$Easing: {$Left: $JssorEasing$.$EaseSwing, $Top: $JssorEasing$.$EaseInJump},
+						$Assembly: 260,
+						$Round: {$Top: 1.5}
+					}
+					break;
+				case 6:
+					reslide_effect = {
+						$Duration: reslider3["params"]["effect"]["duration"],
+						$Delay: 30,
+						$Cols: 8,
+						$Rows: 4,
+						$Clip: 15,
+						$SlideOut: true,
+						$Formation: $JssorSlideshowFormations$.$FormationStraightStairs,
+						$Easing: $JssorEasing$.$EaseOutQuad,
+						$Assembly: 2049
+					}
+					break;
+			}
+			;
+
+
+			//	reslide_effect ={$Duration:1000,$Delay:30,$Cols:8,$Rows:4,$Clip:15,$SlideOut:true,$Formation:$JssorSlideshowFormations$.$FormationStraightStairs,$Easing:$JssorEasing$.$EaseOutQuad,$Assembly:2049}				
+
+
+			var _SlideshowTransitions = [
+				reslide_effect
+			];
+			if (!reslider3['params']['thumbnails']['positioning']) {
+				var thumbnailsCount = Math.ceil(reslider3.count - 1);
+			}
+			else {
+				var thumbnailsCount = Math.ceil(reslider3.count);
+			}
+			var options = {
+				$AutoPlay: (reslider3["params"]["autoplay"] == 1) ? true : false,                                   //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+				$SlideDuration: 500,
+				$AutoPlayInterval: reslider3["params"]["effect"]["interval"],                                 //[Optional] Specifies default duration (swipe) for slide in milliseconds, default value is 500
+
+				$BulletNavigatorOptions: {                                //[Optional] Options to specify and enable navigator or not
+					$Class: $JssorBulletNavigator$,                       //[Required] Class to create navigator instance
+					$ChanceToShow: reslider3["params"]["bullets"]["show"],                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+					$AutoCenter: reslider3["params"]["bullets"]["autocenter"],                                 //[Optional] Auto center navigator in parent container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+					$Steps: 1,                                      //[Optional] Steps to go for each navigation request, default value is 1
+					$Rows: reslider3["params"]["bullets"]["rows"],                                      //[Optional] Specify lanes to arrange items, default value is 1
+					$SpacingX: reslider3["params"]["bullets"]["s_x"],                                  //[Optional] Horizontal space between each item in pixel, default value is 0
+					$SpacingY: reslider3["params"]["bullets"]["s_y"],                                  //[Optional] Vertical space between each item in pixel, default value is 0
+					$Orientation: reslider3["params"]["bullets"]["orientation"]                                //[Optional] The orientation of the navigator, 1 horizontal, 2 vertical, default value is 1
+				},
+				$ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+					$Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+					$ChanceToShow: reslider3["params"]["arrows"]["show"],                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+					$AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+					$Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+				},
+				$SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+					$Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+					$Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+					$TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+					$ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+				},
+				$ThumbnailNavigatorOptions: {
+					$Class: $JssorThumbnailNavigator$,              //[Required] Class to create thumbnail navigator instance
+					$ChanceToShow: reslider3["params"]["thumbnails"]["show"],                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+					$ActionMode: 1,                                 //[Optional] 0 None, 1 act by click, 2 act by mouse hover, 3 both, default value is 1
+					$AutoCenter: 0,                                 //[Optional] Auto center thumbnail items in the thumbnail navigator container, 0 None, 1 Horizontal, 2 Vertical, 3 Both, default value is 3
+					$Rows: 1,                                      //[Optional] Specify lanes to arrange thumbnails, default value is 1
+					$SpacingX: 3,                                   //[Optional] Horizontal space between each thumbnail in pixel, default value is 0
+					$SpacingY: 3,                                   //[Optional] Vertical space between each thumbnail in pixel, default value is 0
+					$Cols: thumbnailsCount,                              //[Optional] Number of pieces to display, default value is 1
+					$ParkingPosition: 0,                          //[Optional] The offset position to park thumbnail
+					$Orientation: 1,                                //[Optional] Orientation to arrange thumbnails, 1 horizental, 2 vertical, default value is 1
+					$NoDrag: false                                //[Optional] Disable drag or not, default value is false
+				}
+
+			};
+
+			c_slider3 = new $JssorSlider$(containerId, options);
+		}
+
+		jQuery(function ($) {
+
+			(function initReslideSlider() {
+
+				/*** ####bullets#### ***/
+
+				switch (+reslider3["params"]["bullets"]["position"]) {
+					case 0:
+						reslider3["params"]["bullets"]["autocenter"] = 0;
+						var css_bullets_obj = {
+							"left": reslider3["params"]["bullets"]["style"]["position"]["left"],
+							"top": reslider3["params"]["bullets"]["style"]["position"]["top"]
+						};
+						var css_bullets = "left:" + reslider3["params"]["bullets"]["style"]["position"]["left"] + ";top:" + reslider3["params"]["bullets"]["style"]["position"]["top"];
+						break;
+					case 1:
+						reslider3["params"]["bullets"]["autocenter"] = 1;
+						var css_bullets_obj = {
+							"right": "",
+							"top": reslider3["params"]["bullets"]["style"]["position"]["top"],
+							"left": "",
+							"bottom": ""
+						};
+						var css_bullets = "top:" + reslider3["params"]["bullets"]["style"]["position"]["top"];
+						break;
+					case 2:
+						reslider3["params"]["bullets"]["autocenter"] = 0;
+						var css_bullets_obj = {
+							"right": reslider3["params"]["bullets"]["style"]["position"]["right"],
+							"top": reslider3["params"]["bullets"]["style"]["position"]["top"]
+						};
+						var css_bullets = "right:" + reslider3["params"]["bullets"]["style"]["position"]["right"] + ";top:" + reslider3["params"]["bullets"]["style"]["position"]["top"];
+						break;
+					case 3:
+						reslider3["params"]["bullets"]["autocenter"] = 2;
+						var css_bullets_obj = {
+							"right": "",
+							"top": "",
+							"left": reslider3["params"]["bullets"]["style"]["position"]["left"],
+							"bottom": ""
+						};
+						var css_bullets = "left:" + reslider3["params"]["bullets"]["style"]["position"]["left"];
+						break;
+					case 4:
+						reslider3["params"]["bullets"]["autocenter"] = 3;
+						var css_bullets_obj = {"right": "", "top": "", "left": "", "bottom": ""};
+						var css_bullets = "";
+						break;
+					case 5:
+						reslider3["params"]["bullets"]["autocenter"] = 2;
+						var css_bullets_obj = {
+							"right": reslider3["params"]["bullets"]["style"]["position"]["right"],
+							"top": "",
+							"left": "",
+							"bottom": ""
+						};
+						var css_bullets = "right:" + reslider3["params"]["bullets"]["style"]["position"]["right"];
+						break;
+					case 6:
+						reslider3["params"]["bullets"]["autocenter"] = 0;
+						var css_bullets_obj = {
+							"left": reslider3["params"]["bullets"]["style"]["position"]["left"],
+							"bottom": reslider3["params"]["bullets"]["style"]["position"]["bottom"]
+						};
+						var css_bullets = "left:" + reslider3["params"]["bullets"]["style"]["position"]["left"] + ";bottom:" + reslider3["params"]["bullets"]["style"]["position"]["bottom"];
+						break;
+					case 7:
+						reslider3["params"]["bullets"]["autocenter"] = 1;
+						var css_bullets_obj = {
+							"left": "",
+							"bottom": reslider3["params"]["bullets"]["style"]["position"]["bottom"],
+							"right": ""
+						};
+						var css_bullets = "bottom:" + reslider3["params"]["bullets"]["style"]["position"]["bottom"];
+						break;
+					case 8:
+						reslider3["params"]["bullets"]["autocenter"] = 0;
+						var css_bullets_obj = {
+							"left": "",
+							"bottom": reslider3["params"]["bullets"]["style"]["position"]["bottom"],
+							"right": reslider3["params"]["bullets"]["style"]["position"]["right"]
+						};
+						var css_bullets = "bottom:" + reslider3["params"]["bullets"]["style"]["position"]["bottom"] + ";right:" + reslider3["params"]["bullets"]["style"]["position"]["right"];
+						break;
+				}
+				_reslide.find('#slider3_container', '.reslide_navigator')[0].addStyle(css_bullets);
+				if (reslider3.count) {
+					var thubmnailCWidth = jQuery('.reslide-thumbnail3').width();
+					var thumbWidth = thubmnailCWidth / reslider3.count;
+					if (reslider3['params']['thumbnails']['positioning'])
+						jQuery('.reslide-thumbnail3 .c,.reslide-thumbnail3 .p,.reslide-thumbnail3 .w').width(thumbWidth - 4);
+					else {
+						jQuery('.reslide-thumbnail3 .c,.reslide-thumbnail3 .p,.reslide-thumbnail3 .w').width(58);
+						jQuery('.reslide-thumbnail3 .w').width(56);
+						jQuery('.reslide-thumbnail3 > div').css('max-width', (jQuery('.reslide-thumbnail3').width() - 20) + 'px');//width(58);
+						var walk = jQuery('.reslide-thumbnail3').width() - 20;
+						var walkcount = Math.floor(walk / 61) - 1;
+						walk = walkcount * 61 - 3;
+						jQuery('.reslide-thumbnail3 > div').css('max-width', walk + 'px');
+					}
+				}
+				jQuery('#slider3_container .reslide_slides img').css('display', 'block');
+
+				init_c_slider3("slider3_container");
+
+			})();
+			function ScaleSlider() {
+				var parentWidth = $('#slider3_container').parent().width();
+				jQuery('#slider3_container').css('display', 'block');
+
+
+				if (parentWidth) {
+
+					if (parentWidth < reslider3['style']['width']) {
+						c_slider3.$ScaleWidth(parentWidth);
+						jQuery('#slider3_container > div').css('overflow', 'hidden');
+
+					} else {
+						c_slider3.$ScaleWidth(reslider3['style']['width']);
+					}
+				}
+				else
+					window.setTimeout(ScaleSlider, 10);
+			}
+
+			$(window).bind("load", ScaleSlider);
+			$(window).bind("resize", ScaleSlider);
+			$(window).bind("orientationchange", ScaleSlider);
+
+			//responsive code end
+
+		})
+	</script>
+	</p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><img class="alignnone size-medium wp-image-134" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-300x149.png" alt="iphone10" width="300" height="149" srcset="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-300x149.png 300w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-768x382.png 768w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-960x480.png 960w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-480x240.png 480w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-320x160.png 320w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10-240x120.png 240w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone10.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /> <img class="alignnone size-medium wp-image-133" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-300x149.png" alt="iphone9" width="300" height="149" srcset="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-300x149.png 300w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-768x382.png 768w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-960x480.png 960w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-480x240.png 480w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-320x160.png 320w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9-240x120.png 240w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone9.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /> <img class="alignnone size-medium wp-image-132" src="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-300x149.png" alt="iphone8" width="300" height="149" srcset="http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-300x149.png 300w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-768x382.png 768w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-960x480.png 960w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-480x240.png 480w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-320x160.png 320w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8-240x120.png 240w, http://www.1mbgame.com/wp-content/uploads/2016/12/iphone8.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p>IPA File can be download from here:</p>
+<p>http://www.filedropper.com/youtube</p>
+<p>&nbsp;</p>
+<p>Source Code : USD 99.00</p>
+<p>contact : andyngkh86@gmail.com</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+		</article>
+
+				
+			
+
+		</div><!-- #main-core -->
+		</div><!-- #main -->
+		
+		<div id="sidebar">
+		<div id="sidebar-core">
+
+						<aside class="widget widget_text"><h3 class="widget-title">Facebook Share</h3>			<div class="textwidget"> <script>(function(d, s, id) {
+                                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                                        if (d.getElementById(id)) return;
+                                                        js = d.createElement(s); js.id = id;
+                                                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=734151639963834&version=v2.0";
+                                                        fjs.parentNode.insertBefore(js, fjs);
+                                                        }(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-like-box" data-href="https://www.facebook.com/wangsachats" data-width="260" data-height="300" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false">
+                                    </div></div>
+		</aside><aside class="widget widget_text">			<div class="textwidget"><table style="width:100%" border="0">
+                                        <tr>
+                                            <td align="center">
+                                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                                    <input type="hidden" name="hosted_button_id" value="ZBU73GFGPHL9N">
+                                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+                                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+                                                </form>
+                                            </td>
+                                        </tr>
+                                    </table></div>
+		</aside>
+		</div>
+		</div><!-- #sidebar -->
+					</div>
+	</div><!-- #content -->
+
+	<footer>
+		<div id="footer"><div id="footer-core" class="option1"><div id="footer-col1" class="widget-area"><aside class="widget widget_text"><h3 class="footer-widget-title"><span>Copyright © 2016 by Wangsachats</span></h3>			<div class="textwidget">All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.</div>
+		</aside></div></div></div><!-- #footer -->		
+		<div id="sub-footer">
+		<div id="sub-footer-core">	
+
+						<!-- #footer-menu -->
+
+			<div class="copyright">
+			Developed by <a href="http://www.1mbgame.com/" target="_blank">WangsaChats</a>. Powered by <a href="https://www.facebook.com/wangsachats" target="_blank">Andy</a>.			</div>
+			<!-- .copyright -->
+
+		</div>
+		</div>
+	</footer><!-- footer -->
+
+</div><!-- #body-core -->
+
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/extentions/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.1.6'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/scripts/main-frontend.js?ver=1.1'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/extentions/bootstrap/js/bootstrap.js?ver=2.3.2'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/scripts/modernizr.js?ver=4.5.4'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/scripts/plugins/ResponsiveSlides/responsiveslides.min.js?ver=1.54'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-content/themes/minamaze/lib/scripts/plugins/ResponsiveSlides/responsiveslides-call.js?ver=4.5.4'></script>
+<script type='text/javascript' src='http://www.1mbgame.com/wp-includes/js/wp-embed.min.js?ver=4.5.4'></script>
+
+</body>
+</html>
